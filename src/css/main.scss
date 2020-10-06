@@ -2,11 +2,127 @@
 variables and fonts
 */
 $red: #D90613;
+*,*::before, *::after {
+    box-sizing: border-box;
+}
 html {
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 body {
     background-color: black;
     color: $red;
+}
+a, a:hover {
+    color: $red;
+    text-decoration: none;
+}
+#wrapper {
+    width: auto;
+    margin: 0 auto;
+    max-width: 1366px;
+    padding: 0 22px;
+}
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+    #maxim-img {
+        margin-top: 14px;
+        width: 241.1px;
+        height: 47.1px;
+        background-image: url("../img/maxim.png");
+        background-position:  0 0;
+        background-repeat:  no-repeat;
+        background-size: cover;
+    }
+    #g-shock-img {
+        margin-top: 20px;
+        width: 263.2px;
+        height: 44.6px;
+        background-image: url("../img/g-shock.png");
+        background-position:  0 0;
+        background-repeat:  no-repeat;
+        background-size: cover;
+    }
+    #header-rombs {
+        margin-top: 32px;
+        width: 754.8px;
+        flex-shrink: 1;
+        height: 20px;
+        background-image: url("../img/top-header.png");
+        background-position:  0 0;
+        background-repeat:  no-repeat;
+        background-size: cover;
+    }
+}
+#main-header {
+    margin-bottom: 25px;
+}
+.fullwidth-rombs {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1314px;
+    height: 22px;
+    background-image: url("../img/second-rombs.png");
+    background-position:  0 0;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+.row {
+    display: flex;
+    margin-right: -1rem;
+    margin-left: -1rem;
+
+    &.wrappable {
+        flex-wrap: wrap;
+    }
+    .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+        position: relative;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+.top-links {
+    margin-top: 45px;
+    margin-bottom: 38px;
+
+    .col-img {
+        margin-bottom: 18px;
+    }
+    .col-text {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+.bottom-links {
+    .col-img {
+        margin-bottom: 21px;
+    }
+    .col-title {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    .col-text {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: white;
+    }
+}
+footer {
+    width: auto;
+    margin: 0 auto;
+    max-width: 1366px;
+    background: #F5F5F5;
 }

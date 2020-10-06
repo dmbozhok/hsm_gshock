@@ -1,0 +1,415 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+/**
+variables and fonts
+*/
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif; }
+
+body {
+  background-color: black;
+  color: #D90613; }
+
+a, a:hover {
+  color: #D90613;
+  text-decoration: none; }
+
+#wrapper {
+  width: auto;
+  margin: 0 auto;
+  max-width: 1366px;
+  padding: 0 22px; }
+
+#top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px; }
+  #top-header #maxim-img {
+    margin-top: 14px;
+    width: 241.1px;
+    height: 47.1px;
+    background-image: url(data:image/png;base64,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);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #top-header #g-shock-img {
+    margin-top: 20px;
+    width: 263.2px;
+    height: 44.6px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAAtCAMAAABlPgX8AAAARVBMVEUAAADXBRPZBRPZBhLXBBDYBRLXCBDXBBTZBhLaBRLXABDYBhLZBRLZBRPSBRDZBRPZBRPZBRLZBhTZBRTZBRPXCBDZBhMjVaWGAAAAFnRSTlMAYL/fQKAgQIAwIHDv7xCQUM/Pz69AhU7SYwAAAr5JREFUaN7l2t1uozAQhuGxjQnmP+3u3P+lrqgiMHwwU6tsasR7SNLaPAk4gdBU7Xi/LpBaxQd1Bc1ZnnttxQdKmhLn42paN7D+TBNtPZq3W4+LdWOCA2SSIbT5uEBxnpdAQoYYOaotYVzIaA5SVRIEOCjv0R4cQAIg9rEb3IQZxUGWSIEQHVCi/2CWJQQIy1FeHHfhEh00iQQIcBAkFgdFAiHwBPE1smO1kQ5qWK9JgAAHSeKT1dwRRM1xD5piIe3g8Kzn0yAe356PY70DiN6t37S3hfDrt81tIcx65bwtRN2tz2HZQ7Qurj0Nwq2nhxCW4kwaRFPGDWdA2PVYAsRYxn0KELhyngmBz6neCIH/UoQYNyvnXSFqWDk1iIefK5IhRj9n8oL4AyunAAElQGBZQVSwcgoQfbEpXAtisHNbiA4+/QsQy1ziB0reVKwn1zmswf3FzobAjLCwnwYhZ3KGcOX7INhkDPGgN0J0IVuIik6F0CUyhXB0JkRodYk6T4jhRIjvSfg8Ibg4E2KSuCqE68+EmCQuCsHDuRBUuotC8KhBBDv13EDYTYFelU8H/SpEKOZEiK4WIJZgRinZPL6GO/iu0XKUvS+EaziuOQtisHPhGhA0wMHxQwjYvYtArO/tfNwXYrPeD3sQzsRVaRBNEff8KQTOxwKEPjhCwA3bAiEwHSLzGzy7EJvLlv19IdanCX9fiM0Y5r4Q1KzX0Cwhwv+GwIlb1JGvcmKhZa02pEGQZ61nv+yfnDmCKPGnZMvzdAesdPofJ0KQ1x1g4oIDQuARGOirsU1wAAnNIQ1Cl7AvB1WiNdLPC4e9NTS0CQ4pEs+S0iB0CU9RRj8mEWIZGD9gBic5KBJP5cVLhyCvO6AEOMgQZbt7mckcBA5Yb46ipcbPvWaID/TR1mq/hjY9zEHTKLhzIy0FE/WX/gFAYE0jR+yY4wAAAABJRU5ErkJggg==);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #top-header #header-rombs {
+    margin-top: 32px;
+    width: 754.8px;
+    flex-shrink: 1;
+    height: 20px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvQAAAAWCAMAAACYEfiEAAAASFBMVEUAAADZBhLRCBDXABDXCBDZBRLXBBHYBRPZBRLXBhTaBRPbBhLaBRPXBhPaBhLYBRPZBRPYBxTZBRPZBRPYBxLaBRDaABDZBhPc+IBvAAAAF3RSTlMA3xAgIJBAX++Av3+foG+/z3CvUHAwMGbbsHIAAALrSURBVHja5JPBcusgDEUBG1uGPtcGu/7/P31Tkpm7UC+LNl4QsklmhDLnXEkmDoZ/8jZXqpONleoQalWXPoZK1dsa1rrlGtZ29IYV6lj3jdg3iBUHM/N+l2y2SFs5yRz4Eqx2+cerWfxiZ+6UDhu50+dcw7LZhr6w/CJHBWv9y4hTdcS+RSxnzMjSzvJdRtpqA5zByWinsVSZ02TMSLScl8ywitNedmiuOLG0v7Y3xCpVdlBR9ltHPLWIZQzpH8JWykhbb4Bh4NHuleoqiys/oKWcKFZxMg8t5sTSjvKGWP5ZlYNc08tHjCMvz1rEevRPOuryjbRJM8CVU6niJZzO8gNaej+gpZ3wkmOVtDvD0gcVZb9pxEMA9NQiFtLWUSNt1owl0E7Q0k7QYk7Q0k7Q4lhb6AxrsYe6ptePGEeOxy1iIW0VNdLmzVgCOBEtOCktOGkt7QQtjnVIb1gBWLimV48YR473LWIhbURN0kazWgI4ES04aS04aS04caz0E1boDeuQiGu6YcQ4coaVpR0spI2odT+i1uARTkQLTloLTkQLTgoLTiTtaUuuF6xyUC5KvmPEOHKGlZrCeqb9FT4Rteo/H1GzJYiy8+q0WjhpracT0SpOHIs5lbRPL7kjrEPiZJO7acTlyClWltawyr9fyfBPurZKs79k5NXlkolXz+uaq1j+11gfl3VdYZ1yHa8eMbDGN8P6354drDAQwkAYjtK12RahNfv+z1rovdnDUJzE9ToIv3j8MFR86t7z6R1rVkA3psyCUTGl3tFmBXNjyiwYFdPqHWtWKDemzIJRkVLvOicqAlmjNBdojdONGbNQVLTkeseSZbrV6G7MkgWhYnuN/HrHkTVKy+DGDFkQKtZNbQm9I80K6cbzszBULGMVvWPNCunGc7MERcWF9I40a9cjnhvPzBLpb/Goy/PbQ4ez3sv3TT+fVZqzPtSctetJ9GJZ/tqV8ovnZd3EPxVa/3f5yqJYhTP67HwAXD5mMryQBWgAAAAASUVORK5CYII=);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+#main-header {
+  margin-bottom: 25px; }
+
+.fullwidth-rombs {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1314px;
+  height: 22px;
+  background-image: url(data:image/png;base64,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);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.row {
+  display: flex;
+  margin-right: -1rem;
+  margin-left: -1rem; }
+  .row.wrappable {
+    flex-wrap: wrap; }
+  .row .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem; }
+
+.top-links {
+  margin-top: 45px;
+  margin-bottom: 38px; }
+  .top-links .col-img {
+    margin-bottom: 18px; }
+  .top-links .col-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px; }
+
+.bottom-links .col-img {
+  margin-bottom: 21px; }
+
+.bottom-links .col-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 6px; }
+
+.bottom-links .col-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: white; }
+
