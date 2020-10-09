@@ -712,7 +712,10 @@ footer {
     .bottom-links {
         flex-wrap: wrap;
         margin-top: 48px;
-
+        .col {
+            flex-basis: 50%;
+            max-width: 50%;
+        }
         .col:nth-child(2n):not(:last-child) {
             margin-bottom: 60px;
         }

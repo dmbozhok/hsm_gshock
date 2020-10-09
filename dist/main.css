@@ -832,6 +832,9 @@ footer {
   .bottom-links {
     flex-wrap: wrap;
     margin-top: 48px; }
+    .bottom-links .col {
+      flex-basis: 50%;
+      max-width: 50%; }
     .bottom-links .col:nth-child(2n):not(:last-child) {
       margin-bottom: 60px; }
   .fullwidth-rombs-mobile {
